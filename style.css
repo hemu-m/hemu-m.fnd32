@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  
+}
+
+.container img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+.container p {
+  position: absolute; /*絶対配置*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: yellow;     /*文字は白に*/
+  font-family : "Meiryo", "メイリオ", sans-serif;/*Google Font*/
+  font-weight: bold; /*太字に*/
+  margin: 0;
+}
+.container p2 {
+  position: absolute;
+  position: absolute; /*絶対配置*/
+  color: yellow;     /*文字は白に*/
+  top: 0;
+  left: 0;
+}
