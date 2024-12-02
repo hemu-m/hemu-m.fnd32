@@ -1,28 +1,48 @@
-.container {
+
+.container1 {
   position: relative;
+  text-align: center;
+  font-size: 30px;
   
 }
+.frame1 {
+  font-size: 30px;
+  width: 200px;
+  height: 40px;
+}
+.frame2 {
+  font-size: 30px;
+  width: 70%;
+  height: 40px;
+  background-color: rgb(162, 245, 245);
+}
 
-.container img {
-  width: 50%;
-  height: 50%;
+.container2 {
+  position: relative;
+  text-align: center;
+}
+
+.container2 img {
+  position: static; /*標準*/
+  width: 80%;
   margin: 0 auto;
 }
-.container p {
+.container2 p1 {
   position: absolute; /*絶対配置*/
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  bottom: 20%;
+  right: 0%;
   font-size: 60px;
-  color: yellow;     /*文字は白に*/
+  color: rgb(233, 184, 77);     /*文字は白に*/
   font-family : "Meiryo", "メイリオ", sans-serif;/*Google Font*/
   font-weight: bold; /*太字に*/
   margin: 0;
 }
-.container p2 {
-  position: absolute;
+.container2 p2 {
   position: absolute; /*絶対配置*/
-  color: yellow;     /*文字は白に*/
-  top: 0;
-  left: 0;
+  width: 80%;
+  height: 100%;
+  color: rgb(78, 78, 26);     /*文字は白に*/
+  top: 0%;
+  left: 10%;
 }
